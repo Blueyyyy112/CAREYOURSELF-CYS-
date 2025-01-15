@@ -1,0 +1,106 @@
+/* การตั้งค่าพื้นฐาน */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ส่วนหัว */
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ส่วนเนื้อหาหลัก */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+h2 {
+    text-align: center;
+    color: #4caf50;
+}
+
+h3 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* การตกแต่งรายการ */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+/* การตกแต่งข้อความในส่วนการดูแลตนเอง */
+#self-care p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* การตกแต่งคลิป */
+.video {
+    text-align: center;
+    margin-top: 20px;
+}
+
+iframe {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* ส่วนท้าย */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
